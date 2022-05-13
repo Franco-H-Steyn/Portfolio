@@ -1,0 +1,59 @@
+.blog{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    padding-bottom: 50px;
+    padding-top: 10%;
+}
+
+.blog h1{
+    color: rgb(221, 221, 221);
+}
+
+.blog p{
+    width: 70%;
+    justify-content: center;
+    text-align: justify;
+    margin-left: 15%;
+    color: rgb(221, 221, 221);
+    padding: 10px;
+    z-index: 1;
+}
+
+.blog ul{
+    color: rgb(221, 221, 221);
+    width: 60%;
+    justify-content: center;
+    text-align: left;
+    z-index: 1;
+    margin-left: 15%;
+}
+
+@media only screen and (max-width: 800px){
+    .blog p{
+        font-size: 18px;
+        padding-left: 8px;
+        width: 70%;
+    }
+
+    .blog h1{
+        padding-top: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 500px){
+    .blog p{
+        font-size: 15px;
+        width: 70%;
+        padding-left: 4px;
+    }
+
+    .blog h1{
+        font-size: 25px;
+        padding-top: 60px;
+    }
+}
