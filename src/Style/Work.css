@@ -22,6 +22,11 @@
     font-size: 25px;
 }
 
+.work article a{
+    text-decoration: none;
+    color: rgb(221, 221, 221);
+}
+
 .work h1{
     font-size: 100px;
     font-weight: 100;
@@ -36,7 +41,16 @@
     color: rgb(218, 218, 218);
 }
 
-.work ul{
+.work .sites{
+    list-style: none;
+    justify-content: left;
+    padding-left: 0%;
+    padding-top: 2%;
+    margin-left: 0;
+    align-items: center;
+}
+
+.work .repos{
     list-style: none;
     justify-content: left;
     padding-left: 0%;
@@ -46,18 +60,32 @@
     padding-bottom: 10%;
 }
 
-.work ul li{
+.work .sites li{
     display: inline;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 30px;
 }
 
-.work ul a{
+.work .repos li{
+    display: inline;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 30px;
+}
+
+.work .sites a{
     text-decoration: none;
     color: rgb(221, 221, 221);
     z-index: 1;
 }
+
+.work .repos a{
+    text-decoration: none;
+    color: rgb(221, 221, 221);
+    z-index: 1;
+}
+
 .work a:hover{
     font-size: 31px;
     color: rgb(110, 32, 32);
@@ -78,7 +106,10 @@
     height: 85vh;
 }
 
-    .work ul{
+    .work .sites{
+        font-size: 20px;
+    }
+    .work .repos{
         font-size: 20px;
     }
 }
@@ -101,13 +132,21 @@
         height: 77vh;
     }
 
-    .work ul li{
+    .work .sites li{
         padding-left: 5px;
         padding-right: 5px;
         font-size: 18px;
     }
+    .work .repos li{
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 18px;
+    }
 
-    .work ul{
+    .work .sites{
+        padding-bottom: 0;
+    }
+    .work .repos{
         padding-bottom: 0;
     }
 }
