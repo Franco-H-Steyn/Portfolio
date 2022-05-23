@@ -22,7 +22,7 @@ export default class Blogs extends Component {
             <img src={Icon}/>
             <p className='text'>
                 Hello! My name is Franco Steyn and I have been studying at the University of Witwatersrand since 
-                2019. I am in my honours year of a degree in Digital Arts with a double major in Writing and 
+                2019. I am in my fourth year of a professional degree in Digital Arts (NQF level 8) with a double major in Writing and 
                 Interactivity, as well as Interactive Media (which focuses on UX, UI and general interactivity). 
                 I especially enjoy designing websites that are easy on the eyes and is simple and fun to use or navigate 
                 through. I enjoy learning new skills and new ways to solve problems. My major in Writing and Interactivity 

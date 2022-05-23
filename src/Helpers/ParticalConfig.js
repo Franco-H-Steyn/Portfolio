@@ -29,7 +29,7 @@ const particleConfig = {
       },
       move: {
         enable: true,
-        speed: 5,
+        speed: 2,
         direction: "none",
         random: true,
         straight: true,

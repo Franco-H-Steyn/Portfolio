@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Logo from "../Images/NewLogo2.png";
 import {Link} from "react-router-dom";
 import "../Style/NavBar.css";
 import MenuIcon from '@mui/icons-material/Menu';
+
 
 export default class Navbar extends Component{
     constructor(props)
@@ -26,14 +26,14 @@ export default class Navbar extends Component{
         return(
             <div className='navbar'>
                 <div className='Left' id = {this.state.showLinks ? "open" : "close"}>
-                
+                    
                         <div className='hiddenLinks'>
                             <Link to = "/" onClick={this.toggleNav}>HOME</Link>
                             <Link to = "/About" onClick={this.toggleNav}>ABOUT</Link>
                             <Link to = "/Work" onClick={this.toggleNav}>WORK</Link>
                         </div>
                 </div>
-               
+              
                 <div className='Right'>
                     <Link to = "/">HOME</Link>
                     <Link to = "/About">ABOUT</Link>
