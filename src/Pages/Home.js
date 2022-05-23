@@ -1,39 +1,26 @@
 import React, { Component } from 'react';
 import "../Style/Home.css";
-import "../Style/Blogs.css";
-import { Bloglist } from '../Helpers/BlogPosts';
-import BlogItem from "../Components/BlogItem";
+
 
 export default class Home extends Component {
   render() {
     return (
-    <div className='bigpage'>
-      <div className='Home'>
-        <div className='HeaderContainer'>
-            <h1 className='homeh1'>FRANCO HAYES PHOTOGRAPHY</h1>
+      <body className='home'>
+        <main>
+          <article>
+            <h1 className='homeh1'>franco steyn</h1>
             <p className='homeP'>
-                This is where I like to talk about things I find interesting (see blogs page), 
-                as well as share some of my photographs and writing pieces (coming soon).
+                Hello! This is my portfolio site where I will tell you a bit more
+                about myself as well as what I can do. This portfolio - like me - is still a work in progress. 
+                The <i>ABOUT</i> page will tell you more 
+                about me, and will have a link to my LinkedIn profile
+                and the <i>WORK</i> page will show and tell you what I have 
+                done up until now.
             </p>
-        </div>
-      </div>
-
-      <div className='Blogs'>
-      <h1>INTERACTIVE MEDIA BLOGS</h1>
-          <div className='bloglist'>
-              {Bloglist.map((blogItem, value) => {
-                  return(
-                      <BlogItem
-                      value = {value}
-                      title = {blogItem.title}
-                      intro = {blogItem.intro}
-                      link = {blogItem.link}
-                      />
-                  )
-              })}
-          </div>
-      </div>
-    </div>
+            <p className='thanks'>Thank you so much for your time!</p>
+            </article>
+        </main>
+      </body>
     )
   }
 }

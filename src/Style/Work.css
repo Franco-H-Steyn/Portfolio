@@ -1,0 +1,100 @@
+.work {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    z-index: 2;
+    padding-top: 10%;
+}
+
+.work .intro{
+    width: 40%;
+    justify-content: center;
+    text-align: justify;
+    color: rgb(221, 221, 221);
+    padding: 10px;
+    z-index: 1;
+}
+.work article{
+    width: auto;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.work h1{
+    font-size: 35px;
+    font-weight: 800;
+    color: rgb(218, 218, 218);
+}
+.work h2{
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(218, 218, 218);
+}
+
+.work ul{
+    list-style: none;
+    justify-content: left;
+    padding-left: 0%;
+    padding-top: 2%;
+    margin-left: 0;
+    align-items: center;
+}
+
+.work ul li{
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.work ul a{
+    text-decoration: none;
+    color: rgb(221, 221, 221);
+    z-index: 1;
+}
+.work a:hover{
+    font-size: 18px;
+    color: rgb(110, 32, 32);
+    transition: 0.3s ease-in-out;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 800px){
+    .work .intro{
+       font-size: 20px;
+       width: 70%;
+   }
+   .work{
+    height: 67vh;
+}
+
+    .work ul{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .work h1{
+        font-size: 35px;
+    }
+
+    .work h2{
+        font-size: 25px;
+    }
+    .work .intro{
+        font-size: 15px;
+    }
+
+    .work {
+        height: 73vh;
+    }
+
+    .work ul li{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}

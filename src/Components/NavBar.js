@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Logo from "../Images/Logo.jpg";
+import Logo from "../Images/NewLogo2.png";
 import {Link} from "react-router-dom";
 import "../Style/NavBar.css";
 import MenuIcon from '@mui/icons-material/Menu';
@@ -26,18 +26,18 @@ export default class Navbar extends Component{
         return(
             <div className='navbar'>
                 <div className='Left' id = {this.state.showLinks ? "open" : "close"}>
-                    <img src={Logo}/>
+                
                         <div className='hiddenLinks'>
                             <Link to = "/" onClick={this.toggleNav}>HOME</Link>
-                            <Link to = "/Blogs" onClick={this.toggleNav}>BLOGS</Link>
-                            <Link to = "/Wireframe" onClick={this.toggleNav}>WIREFRAME</Link>
+                            <Link to = "/About" onClick={this.toggleNav}>ABOUT</Link>
+                            <Link to = "/Work" onClick={this.toggleNav}>WORK</Link>
                         </div>
                 </div>
-
+               
                 <div className='Right'>
                     <Link to = "/">HOME</Link>
-                    <Link to = "/Blogs">BLOGS</Link>
-                    <Link to = "/Wireframe">WIREFRAME</Link>
+                    <Link to = "/About">ABOUT</Link>
+                    <Link to = "/Work">WORK</Link>
                     <button onClick = {this.toggleNav}><MenuIcon/></button>
                 </div>
             </div>

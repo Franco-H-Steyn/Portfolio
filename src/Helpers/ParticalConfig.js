@@ -10,29 +10,26 @@ const particleConfig = {
         type: "circle",
         stroke: {
           width: 0,
-          color: "#000000"
         },
-        
-       
       },
       opacity: {
         value: 0.8,
-        random: true,
+        random: false,
       },
       size: {
-        value: 3,
-        random: true,
+        value: 2,
+        random: false,
       },
       line_linked: {
-        enable: false,
-        distance: 500,
-        color: "#000000",
+        enable: true,
+        distance: 100,
+        color: "rgb(221, 55, 55)",
         opacity: 0.4,
         width: 2
       },
       move: {
         enable: true,
-        speed: 8,
+        speed: 5,
         direction: "none",
         random: true,
         straight: true,
@@ -53,12 +50,6 @@ const particleConfig = {
           distance: 100,
           duration: 0.1
         },
-        push: {
-          particles_nb: 4
-        },
-        remove: {
-          particles_nb: 2
-        }
       }
     },
   };
