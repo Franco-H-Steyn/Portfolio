@@ -19,14 +19,14 @@ export default class Wireframe extends Component {
             <h2>See My Progress!</h2>
             </article>
             <ul className='sites'>
-                <li> <a href = "https://2109231frank.github.io/WSOA3028A_2109231/index.html" target="_blank">2021 first site</a></li>
-                <li> <a href = "https://2109231frank.github.io/WSOA3029A_2109231/index.html" target="_blank">2021 final exam</a></li>
-                <li> <a href = "https://2109231frank.github.io/WSOA4175A_2109231/#/" target="_blank">2022 React site</a></li>
+                <li> <a href = "https://Franco-H-Steyn.github.io/WSOA3028A_2109231/index.html" target="_blank">2021 first site</a></li>
+                <li> <a href = "https://Franco-H-Steyn.github.io/WSOA3029A_2109231/index.html" target="_blank">2021 final exam</a></li>
+                <li> <a href = "https://Franco-H-Steyn.github.io/WSOA4175A_2109231/#/" target="_blank">2022 React site</a></li>
             </ul>
             <ul className='repos'>
-                <li> <a href = "https://github.com/2109231Frank/WSOA3028A_2109231" target="_blank">code</a></li>
-                <li> <a href = "https://github.com/2109231Frank/WSOA3029A_2109231" target="_blank">code</a></li>
-                <li> <a href = "https://github.com/2109231Frank/WSOA4175A_2109231" target="_blank">code</a></li>
+                <li> <a href = "https://github.com/Franco-H-Steyn/WSOA3028A_2109231" target="_blank">code</a></li>
+                <li> <a href = "https://github.com/Franco-H-Steyn/WSOA3029A_2109231" target="_blank">code</a></li>
+                <li> <a href = "https://github.com/Franco-H-Steyn/WSOA4175A_2109231" target="_blank">code</a></li>
             </ul>
         
            
